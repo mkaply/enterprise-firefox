@@ -602,8 +602,6 @@ export function addPolicyPermission(origin, permissionName, permission) {
 }
 
 /**
- * removePolicyPermission
- *
  * Removes a permission set by addPolicyPermission, for both host forms.
  * Passing EXPIRE_POLICY is what allows the permission manager to remove it.
  *
